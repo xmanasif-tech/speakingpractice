@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offline — Shadowing</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0F172A;
+      color: #F9FAFB;
+      text-align: center;
+    }
+    .card {
+      max-width: 340px;
+      width: 100%;
+    }
+    h1 { font-size: 20px; font-weight: 600; margin-bottom: 8px; }
+    p { font-size: 14px; line-height: 1.5; color: #9CA3AF; margin-bottom: 24px; }
+    button {
+      background: #EB0028;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 24px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Connection Lost</h1>
+    <p>Shadowing needs an active internet connection to stream shadowing clips from shadowing.tech.</p>
+    <button onclick="window.location.href='https://shadowing.tech'">Try Again</button>
+  </div>
+</body>
+</html>
